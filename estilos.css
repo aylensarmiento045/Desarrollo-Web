@@ -59,7 +59,7 @@ h2{
 .galeria{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: repeat(6, 200px);
     padding: 20px;
     grid-gap: 15px;
 }
