@@ -79,31 +79,31 @@ main .galeria .item:hover {
   transform: scale(1.1);
 }
 main .item1 {
-  background-image: url(../../img/cereales.jpg);
+  background-image: url(../img/cereales.jpg);
 }
 main .item2 {
-  background-image: url(../../img/legumbres.jpg);
+  background-image: url(../img/legumbres.jpg);
 }
 main .item3 {
-  background-image: url(../../img/cuidado\ personal.jpg);
+  background-image: url(../img/cuidado\ personal.jpg);
 }
 main .item4 {
-  background-image: url(../../img/pexels-josh-sorenson-1546890.jpg);
+  background-image: url(../img/pexels-josh-sorenson-1546890.jpg);
 }
 main .item5 {
-  background-image: url(../../img/pexels-roman-odintsov-5837002.jpg);
+  background-image: url(../img/pexels-roman-odintsov-5837002.jpg);
 }
 main .item6 {
-  background-image: url(../../img/pexels-saul-rivera-17605670.jpg);
+  background-image: url(../img/pexels-saul-rivera-17605670.jpg);
 }
 main .item7 {
-  background-image: url(../../img/pan.jpg);
+  background-image: url(../img/pan.jpg);
 }
 main .item8 {
-  background-image: url(../../img/congelados.jpg);
+  background-image: url(../img/congelados.jpg);
 }
 main .item9 {
-  background-image: url(../../img/aceites.jpg);
+  background-image: url(../img/aceites.jpg);
 }
 
 .myform {
