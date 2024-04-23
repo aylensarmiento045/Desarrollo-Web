@@ -1,0 +1,1 @@
+En la presente página se han implementado meta descriptions, keywords y titles. Tambien se ha tenido en cuenta la jerarquía de encabezados y contenido textual de fácil entendimiento. Todas las páginas son responsive.
