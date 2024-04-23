@@ -1,0 +1,12 @@
+.myCard{
+    border: 10px solid $color1;
+    width: 90%;
+    margin: 30px auto;
+    padding: 40px;
+    
+
+    & h5{
+        font-weight: 500;
+        text-decoration: solid;
+        }
+    }

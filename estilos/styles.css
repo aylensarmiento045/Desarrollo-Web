@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .navbar {
+  background-color: #b0db43;
+}
+
+main .nosotros {
+  padding: 30px;
+  margin: 30px;
+  height: 100%;
+}
+
+.card {
+  border: none;
+}
+.card .card-body-1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card .card-img-top {
+  background-size: cover;
+  background-position: center;
+}
+.card h4 {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.myCard {
+  border: 10px solid #b0db43;
+  width: 90%;
+  margin: 30px auto;
+  padding: 40px;
+}
+.myCard h5 {
+  font-weight: 500;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+main h2 {
+  text-align: center;
+  margin: 20px;
+}
+main .galeria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 200px);
+  padding: 20px;
+  grid-gap: 15px;
+}
+@media screen and (min-width: 450px) {
+  main .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1, 200px;
+  }
+}
+@media screen and (min-width: 600px) {
+  main .galeria {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1, 200px;
+  }
+}
+main .galeria .item {
+  border: 5px solid #b0db43;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s;
+}
+main .galeria .item:hover {
+  transform: scale(1.1);
+}
+main .item1 {
+  background-image: url(../../img/cereales.jpg);
+}
+main .item2 {
+  background-image: url(../../img/legumbres.jpg);
+}
+main .item3 {
+  background-image: url(../../img/cuidado\ personal.jpg);
+}
+main .item4 {
+  background-image: url(../../img/pexels-josh-sorenson-1546890.jpg);
+}
+main .item5 {
+  background-image: url(../../img/pexels-roman-odintsov-5837002.jpg);
+}
+main .item6 {
+  background-image: url(../../img/pexels-saul-rivera-17605670.jpg);
+}
+main .item7 {
+  background-image: url(../../img/pan.jpg);
+}
+main .item8 {
+  background-image: url(../../img/congelados.jpg);
+}
+main .item9 {
+  background-image: url(../../img/aceites.jpg);
+}
+
+.myform {
+  margin-left: auto;
+  max-width: 50%;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #b0db43;
+  color: #61210f;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .redes a {
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 10px;
+  color: #61210f;
+}/*# sourceMappingURL=styles.css.map */

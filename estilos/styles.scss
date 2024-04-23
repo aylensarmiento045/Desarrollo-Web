@@ -1,0 +1,23 @@
+@import "./partials/variables";
+@import "./partials/mediaqueries";
+@import "./partials/reseteo";
+
+header {
+    & .navbar{
+        background-color: $color1;
+        }
+    }
+main {
+    & .nosotros{
+        padding: 30px;
+        margin: 30px;
+        height: 100%;
+        }
+    }
+
+
+@import "./partials/estilosequip";
+@import "./partials/estilosrecetas";
+@import "./partials/estilosprod";
+@import "./partials/estiloscontac";
+@import "./partials/footer";

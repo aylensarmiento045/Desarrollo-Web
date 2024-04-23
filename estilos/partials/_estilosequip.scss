@@ -1,0 +1,19 @@
+.card {
+    border: none;
+
+    & .card-body-1{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+    & .card-img-top{
+        background-size: cover;
+        background-position: center;
+        }
+        & h4{
+            text-decoration: solid ;
+            margin-top: 4px;
+            font-weight: 700;
+            }
+        }

@@ -1,0 +1,19 @@
+
+// @mixin medio-480 {
+//     @media screen and (min-width:480px){
+//         @content;
+//     }
+// };
+
+
+@mixin medio-450 {
+    @media screen and (min-width: 450px) {
+        @content;
+    }
+};
+
+@mixin medio-600 {
+    @media screen and (min-width: 600px) {
+        @content;
+    }
+};

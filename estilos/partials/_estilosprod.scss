@@ -1,0 +1,73 @@
+main{
+
+    & h2{
+    text-align: center;
+    margin: 20px;
+    }
+
+    & .galeria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 200px);
+        padding: 20px;
+        grid-gap: 15px;
+
+        @include medio-450 {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1, 200px ;
+        }
+
+        @include medio-600 {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1, 200px ;
+        }
+
+        & .item{
+            border: 5px solid $color1;
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.5s;
+            }
+
+            .item:hover{
+                transform: scale(1.1);
+            }
+        }
+
+            .item1{
+            background-image: url(../../img/cereales.jpg) ;
+            }
+        
+            .item2{
+            background-image: url(../../img/legumbres.jpg);
+            }
+            .item3{
+            background-image: url(../../img/cuidado\ personal.jpg);
+            }
+        
+            .item4{
+            background-image: url(../../img/pexels-josh-sorenson-1546890.jpg);
+            }
+        
+            .item5{
+            background-image: url(../../img/pexels-roman-odintsov-5837002.jpg);
+            }
+        
+            .item6{
+            background-image: url(../../img/pexels-saul-rivera-17605670.jpg);
+            }
+
+            .item7{
+                background-image: url(../../img/pan.jpg);
+                }
+            
+            .item8{
+                background-image: url(../../img/congelados.jpg);
+                }
+            
+            .item9{
+                background-image: url(../../img/aceites.jpg);
+                }
+        }
+    
+
