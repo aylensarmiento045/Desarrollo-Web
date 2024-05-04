@@ -35,28 +35,17 @@ main .nosotros {
   font-weight: 700;
 }
 
-main {
-  padding: 80px;
-}
-main h2 {
-  text-align: center;
-  margin: 20px;
-}
-main h5 {
-  text-align: center;
-  margin: 20px;
-}
-main.carousel {
-  padding: 80px;
+.carousel {
+  padding: 50px;
 }
 
 main h2 {
   text-align: center;
   margin: 20px;
 }
-main h4 {
+main h5 {
   text-align: center;
-  margin: 20px;
+  margin: 40px;
 }
 main .galeria {
   display: grid;
